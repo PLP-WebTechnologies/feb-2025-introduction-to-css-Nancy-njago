@@ -1,0 +1,42 @@
+/* 1. Styling the title using a class */
+.title {
+    font-family: 'Arial', sans-serif;
+    color: #3498db;
+    text-align: center;
+}
+
+/* 2. Styling the paragraph using an ID */
+#description {
+    font-size: 18px;
+    color: #2c3e50;
+    padding: 10px;
+    border-left: 5px solid #3498db;
+}
+
+/* 3. Styling the image */
+.styled-image {
+    width: 300px;
+    border: 5px solid #cc2e2e;
+    padding: 50px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* 4. Button styling */
+.btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
